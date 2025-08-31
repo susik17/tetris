@@ -25,7 +25,13 @@ The game features standard Tetris gameplay including piece rotation with boundar
 
 3. Compile and Run Java source files:
 
-  <pre> ``` javac tetris/*.java java tetris.TetrisUI ``` </pre>
+--  
+
+javac tetris/*.java
+
+--
+
+java tetris.TetrisUI
 
 
 ## Controls
@@ -44,13 +50,13 @@ The game features standard Tetris gameplay including piece rotation with boundar
 project-root/
 └── src/
     └── tetris/
-        ├── GameBoard.java         # Manages game board grid, line clearing, and collision
-        ├── ShapeType.java         # Enum for Tetromino shape types (I,O,T,S,Z,J,L)
-        ├── ShapeShapes.java       # Defines Tetromino shapes and their rotations
-        ├── Tetrimino.java         # Represents the Tetromino piece with position & rotation
-        ├── TetrisGame.java        # Core game logic: piece spawning, movement, scoring
-        ├── TetrisPanel.java       # Swing JPanel: rendering the board, drawing pieces, handling input
-        └── TetrisUI.java          # Main class: creates Swing JFrame and starts the game
+        ├── GameBoard.java         
+        ├── ShapeType.java        
+        ├── ShapeShapes.java      
+        ├── Tetrimino.java         
+        ├── TetrisGame.java        
+        ├── TetrisPanel.java      
+        └── TetrisUI.java         
 
 
 
