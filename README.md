@@ -23,11 +23,9 @@ The game features standard Tetris gameplay including piece rotation with boundar
 
 2. Open a terminal and navigate to the `src` directory that contains the `tetris` package.  
 
-3. Compile the Java source files:
+3. Compile and Run Java source files:
 
    javac tetris/*.java
-4.Run the game with:
-
    java tetris.TetrisUI
 
 
