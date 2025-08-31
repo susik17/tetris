@@ -25,8 +25,7 @@ The game features standard Tetris gameplay including piece rotation with boundar
 
 3. Compile and Run Java source files:
 
-   javac tetris/*.java
-   java tetris.TetrisUI
+  <pre> ``` javac tetris/*.java java tetris.TetrisUI ``` </pre>
 
 
 ## Controls
