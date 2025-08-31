@@ -23,17 +23,13 @@ The game features standard Tetris gameplay including piece rotation with boundar
 
 2. Open a terminal and navigate to the `src` directory that contains the `tetris` package.  
 
-3.Compile the Java source files:
+3. Compile the Java source files:
 
-bash
-javac tetris/*.java
+   javac tetris/*.java
 4.Run the game with:
 
-bash
-java tetris.TetrisUI
+   java tetris.TetrisUI
 
-
----
 
 ## Controls
 
@@ -45,7 +41,6 @@ java tetris.TetrisUI
 | Up Arrow    | Rotate Tetromino           |
 | Space Bar   | Hard drop (instant down)   |
 
----
 
 ## Project Structure
 
@@ -62,8 +57,6 @@ project-root/
 
 
 
----
-
 ## Screenshots
 
 
@@ -74,7 +67,6 @@ project-root/
 ![Tetris Gameplay 5](images/tetris5.png)  
 ![Tetris Gameplay 5](images/tetris6.png)  
 
----
 
 ## Future Improvements
 
@@ -83,4 +75,3 @@ project-root/
 - Add pause feature and sound effects  
 - Support fullscreen mode and customizable controls  
 
----
