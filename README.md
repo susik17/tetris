@@ -6,7 +6,6 @@ This project is a classic implementation of the Tetris game developed in Java us
 
 The game features standard Tetris gameplay including piece rotation with boundary checks, line clearing, scoring, and smooth piece movement.
 
----
 
 ## Features
 
@@ -17,7 +16,6 @@ The game features standard Tetris gameplay including piece rotation with boundar
 - Graphical rendering using Java Swing for responsive gameplay on typical laptop screens  
 - Adjustable board and cell sizes optimized for desktop and laptop displays  
 
----
 
 ## Installation and Running
 
@@ -25,13 +23,13 @@ The game features standard Tetris gameplay including piece rotation with boundar
 
 2. Open a terminal and navigate to the `src` directory that contains the `tetris` package.  
 
-3. Compile the Java source files:
+3.Compile the Java source files:
 
+bash
 javac tetris/*.java
+4.Run the game with:
 
-
-4. Run the game with:
-
+bash
 java tetris.TetrisUI
 
 
@@ -51,15 +49,17 @@ java tetris.TetrisUI
 
 ## Project Structure
 
-src/
-└── tetris/
-├── GameBoard.java - Manages the game board grid and line clearing
-├── ShapeShapes.java - Defines Tetromino shapes and their rotations
-├── ShapeType.java - Enum for Tetromino shape types
-├── Tetrimino.java - Represents a Tetromino piece with rotation and position
-├── TetrisGame.java - Core game logic and piece control
-├── TetrisPanel.java - Swing JPanel for rendering and input handling
-└── TetrisUI.java - Main class for launching the Swing application
+project-root/
+└── src/
+    └── tetris/
+        ├── GameBoard.java         # Manages game board grid, line clearing, and collision
+        ├── ShapeType.java         # Enum for Tetromino shape types (I,O,T,S,Z,J,L)
+        ├── ShapeShapes.java       # Defines Tetromino shapes and their rotations
+        ├── Tetrimino.java         # Represents the Tetromino piece with position & rotation
+        ├── TetrisGame.java        # Core game logic: piece spawning, movement, scoring
+        ├── TetrisPanel.java       # Swing JPanel: rendering the board, drawing pieces, handling input
+        └── TetrisUI.java          # Main class: creates Swing JFrame and starts the game
+
 
 
 ---
@@ -72,6 +72,7 @@ src/
 ![Tetris Gameplay 3](images/tetris3.png)  
 ![Tetris Gameplay 4](images/tetris4.png)  
 ![Tetris Gameplay 5](images/tetris5.png)  
+![Tetris Gameplay 5](images/tetris6.png)  
 
 ---
 
